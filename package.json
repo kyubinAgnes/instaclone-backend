@@ -2,10 +2,21 @@
   "name": "instaclone",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
-    "dev": ""
+    "dev": "nodemon --exec babel-node server"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.2",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.4",
+    "nodemon": "^3.1.0"
+  }
 }
